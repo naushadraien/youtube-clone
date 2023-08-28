@@ -17,7 +17,7 @@ const Navbar = () => (
     }}
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-      <p style={{ color: "#f31503", fontWeight: "bolder", fontSize: "1.5rem" }}>
+      <p style={{ color: "#f31503", fontWeight: "bolder", fontSize: "1.2rem" }}>
         Youtube 2.0
       </p>
       {/* <img src={logo} alt="logo" height={45} /> */}
