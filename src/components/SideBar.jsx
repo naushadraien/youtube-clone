@@ -7,6 +7,7 @@ const SideBar = ({selectedCategory, setSelectedCategory}) => (
         height: {sx: 'auto', md: '95%'},
         flexDirection: {md: 'column'},
     }}>
+        <p style={{color: '#fff', fontWeight: 'bolder', width:'auto'}}>Explore</p>
         {categories.map((category) => (
             <button 
                 className="category-btn"
